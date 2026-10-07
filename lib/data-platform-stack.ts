@@ -4,6 +4,7 @@ import * as s3 from "aws-cdk-lib/aws-s3";
 import * as s3deploy from "aws-cdk-lib/aws-s3-deployment";
 import * as iam from "aws-cdk-lib/aws-iam";
 import * as glue from "aws-cdk-lib/aws-glue";
+import * as athena from "aws-cdk-lib/aws-athena";
 
 export class DataPlatformStack extends cdk.Stack {
   constructor(scope: Construct, id: string, props?: cdk.StackProps) {
@@ -20,6 +21,15 @@ export class DataPlatformStack extends cdk.Stack {
 
     // Processed data bucket - stores transformed Parquet files
     const processedBucket = new s3.Bucket(this, "ProcessedDataBucket", {
+      blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
+      encryption: s3.BucketEncryption.S3_MANAGED,
+      versioned: true,
+      removalPolicy: cdk.RemovalPolicy.DESTROY,
+      autoDeleteObjects: true,
+    });
+
+    // Athena query results bucket
+    const athenaResultsBucket = new s3.Bucket(this, "AthenaResultsBucket", {
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       encryption: s3.BucketEncryption.S3_MANAGED,
       versioned: true,
@@ -145,6 +155,65 @@ export class DataPlatformStack extends cdk.Stack {
     // Ensure the database exists before the crawler
     crawler.addDependency(database);
 
+    // Athena WorkGroup
+    const athenaWorkGroup = new athena.CfnWorkGroup(
+      this,
+      "AcademicDataWorkGroup",
+      {
+        name: "academic-data-workgroup",
+
+        description: "Athena workgroup for academic data analytics",
+
+        workGroupConfiguration: {
+          resultConfiguration: {
+            outputLocation: athenaResultsBucket.s3UrlForObject("results/"),
+          },
+
+          enforceWorkGroupConfiguration: true,
+          publishCloudWatchMetricsEnabled: true,
+        },
+
+        state: "ENABLED",
+      },
+    );
+
+    // Allow the account to read processed data for Athena queries
+    processedBucket.addToResourcePolicy(
+      new iam.PolicyStatement({
+        effect: iam.Effect.ALLOW,
+        principals: [new iam.AccountRootPrincipal()],
+        actions: [
+          "s3:GetObject",
+          "s3:GetObjectVersion",
+          "s3:ListBucket",
+          "s3:GetBucketLocation",
+        ],
+        resources: [
+          processedBucket.bucketArn,
+          processedBucket.arnForObjects("*"),
+        ],
+      }),
+    );
+
+    // Allow the account to write Athena query results
+    athenaResultsBucket.addToResourcePolicy(
+      new iam.PolicyStatement({
+        effect: iam.Effect.ALLOW,
+        principals: [new iam.AccountRootPrincipal()],
+        actions: [
+          "s3:GetObject",
+          "s3:GetObjectVersion",
+          "s3:PutObject",
+          "s3:ListBucket",
+          "s3:GetBucketLocation",
+        ],
+        resources: [
+          athenaResultsBucket.bucketArn,
+          athenaResultsBucket.arnForObjects("*"),
+        ],
+      }),
+    );
+
     // Stack outputs
     new cdk.CfnOutput(this, "RawBucketName", {
       value: rawBucket.bucketName,
@@ -160,6 +229,14 @@ export class DataPlatformStack extends cdk.Stack {
 
     new cdk.CfnOutput(this, "GlueCrawlerName", {
       value: crawler.ref,
+    });
+
+    new cdk.CfnOutput(this, "AthenaResultsBucketName", {
+      value: athenaResultsBucket.bucketName,
+    });
+
+    new cdk.CfnOutput(this, "AthenaWorkGroupName", {
+      value: athenaWorkGroup.ref,
     });
   }
 }
