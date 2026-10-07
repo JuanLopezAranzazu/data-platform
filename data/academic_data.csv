@@ -1,0 +1,501 @@
+student_id,course,year,month,grade,attendance
+EST-20258702,Redes de Computadores,2024,8,2.1,57.5
+EST-20212747,Redes de Computadores,2024,11,2.0,56.4
+EST-20221394,Cálculo II,2023,2,3.7,93.2
+EST-20251090,Estructuras de Datos,2025,7,2.9,62.2
+EST-20216873,Estructuras de Datos,2024,12,3.7,82.6
+EST-20234300,Álgebra Lineal,2024,6,4.3,90.5
+EST-20228431,Cálculo II,2025,4,2.7,80.7
+EST-20253573,Cálculo I,2024,7,4.0,93.0
+EST-20253323,Estructuras de Datos,2025,4,3.2,69.6
+EST-20233939,Programación Interactiva,2024,2,3.5,97.8
+EST-20227412,Estadística e Inferencia,2023,10,2.1,56.7
+EST-20228431,Cálculo I,2024,12,1.2,55.1
+EST-20228431,Bases de Datos,2024,7,3.9,82.9
+EST-20223986,Programación Interactiva,2025,8,3.8,97.1
+EST-20218792,Programación Interactiva,2023,2,4.1,90.4
+EST-20234276,Cálculo II,2023,5,2.3,53.8
+EST-20210189,Álgebra Lineal,2023,1,2.4,64.0
+EST-20236557,Bases de Datos,2023,7,2.9,96.5
+EST-20215056,Estructuras de Datos,2025,8,1.7,62.7
+EST-20231243,Cálculo II,2023,6,2.0,89.1
+EST-20242482,Estructuras de Datos,2024,5,3.3,91.3
+EST-20221837,Cálculo II,2024,6,4.4,74.8
+EST-20228942,Cálculo II,2024,2,2.0,69.3
+EST-20221837,Cálculo II,2025,1,1.3,72.5
+EST-20240535,Álgebra Lineal,2024,7,3.0,61.3
+EST-20248158,Cálculo II,2025,7,5.0,94.5
+EST-20258190,Física General,2024,10,3.1,72.5
+EST-20255453,Estadística e Inferencia,2024,11,3.9,94.1
+EST-20233939,Estructuras de Datos,2025,10,2.0,55.3
+EST-20212612,Cálculo I,2023,2,2.9,99.4
+EST-20236531,Ingeniería de Software,2023,2,2.0,72.2
+EST-20258033,Bases de Datos,2025,1,1.9,52.4
+EST-20248044,Redes de Computadores,2023,10,1.8,51.9
+EST-20248952,Álgebra Lineal,2025,8,3.4,87.3
+EST-20233939,Cálculo I,2024,8,3.8,83.0
+EST-20233483,Programación Interactiva,2025,1,3.3,90.1
+EST-20226023,Física General,2025,12,2.7,55.3
+EST-20251606,Redes de Computadores,2024,11,1.7,51.8
+EST-20257716,Ingeniería de Software,2025,8,3.6,75.4
+EST-20218110,Cálculo I,2024,9,2.8,69.4
+EST-20248952,Redes de Computadores,2025,4,2.7,73.1
+EST-20212027,Cálculo I,2023,1,4.0,99.6
+EST-20248952,Física General,2024,1,3.8,98.5
+EST-20235851,Ingeniería de Software,2023,3,4.0,97.1
+EST-20248952,Programación Interactiva,2024,5,4.0,89.2
+EST-20210860,Cálculo II,2023,5,2.7,67.7
+EST-20257716,Estructuras de Datos,2025,9,2.6,70.6
+EST-20227159,Programación Interactiva,2025,10,2.4,77.5
+EST-20218529,Cálculo II,2025,12,4.0,91.5
+EST-20242482,Álgebra Lineal,2023,2,2.3,53.4
+EST-20228141,Estadística e Inferencia,2024,2,2.1,71.2
+EST-20234538,Bases de Datos,2024,6,2.7,54.1
+EST-20257716,Bases de Datos,2024,9,2.3,75.7
+EST-20258555,Estructuras de Datos,2024,1,4.4,94.9
+EST-20250757,Ingeniería de Software,2024,9,4.0,89.1
+EST-20240818,Física General,2025,9,2.7,61.4
+EST-20255151,Ingeniería de Software,2024,9,3.7,98.8
+EST-20213890,Física General,2024,5,3.7,83.4
+EST-20237480,Ingeniería de Software,2023,9,2.7,50.5
+EST-20219692,Estadística e Inferencia,2023,11,2.9,62.8
+EST-20240535,Álgebra Lineal,2023,4,2.1,63.0
+EST-20258984,Álgebra Lineal,2025,2,2.3,53.5
+EST-20210206,Cálculo II,2023,6,4.6,98.0
+EST-20251523,Redes de Computadores,2023,4,4.3,73.9
+EST-20259216,Álgebra Lineal,2024,6,3.7,94.8
+EST-20229115,Álgebra Lineal,2025,3,3.2,66.1
+EST-20255758,Programación Interactiva,2025,6,2.9,56.3
+EST-20249099,Programación Interactiva,2025,2,2.5,73.7
+EST-20248158,Cálculo II,2024,2,3.3,55.7
+EST-20224820,Redes de Computadores,2024,9,2.3,74.3
+EST-20228141,Estructuras de Datos,2023,7,4.3,96.0
+EST-20231271,Programación Interactiva,2025,3,3.2,76.0
+EST-20228141,Estructuras de Datos,2025,11,3.3,80.8
+EST-20224820,Cálculo I,2024,1,3.8,57.8
+EST-20248044,Programación Interactiva,2025,8,1.9,52.2
+EST-20233483,Estadística e Inferencia,2025,6,2.0,55.5
+EST-20215056,Redes de Computadores,2024,7,4.0,79.9
+EST-20251606,Cálculo II,2025,9,2.6,54.8
+EST-20211016,Cálculo I,2025,5,3.5,68.8
+EST-20215258,Redes de Computadores,2024,1,3.2,77.5
+EST-20242482,Estadística e Inferencia,2024,12,3.0,69.4
+EST-20254131,Redes de Computadores,2023,10,3.5,58.2
+EST-20231777,Estadística e Inferencia,2024,7,2.0,63.7
+EST-20250774,Estadística e Inferencia,2023,5,3.8,96.4
+EST-20226850,Estructuras de Datos,2024,3,3.8,83.8
+EST-20251523,Ingeniería de Software,2025,12,2.9,74.8
+EST-20231271,Cálculo I,2024,9,1.7,50.6
+EST-20236854,Redes de Computadores,2024,1,4.4,99.6
+EST-20211585,Física General,2024,1,4.1,83.6
+EST-20248952,Cálculo I,2023,1,2.5,65.8
+EST-20210860,Ingeniería de Software,2025,3,3.7,94.0
+EST-20242482,Cálculo I,2023,12,2.1,62.9
+EST-20253001,Álgebra Lineal,2023,6,2.9,77.2
+EST-20231518,Física General,2024,10,3.9,81.8
+EST-20213556,Ingeniería de Software,2025,11,2.5,61.1
+EST-20231962,Estructuras de Datos,2025,3,3.5,98.9
+EST-20250774,Redes de Computadores,2023,8,3.7,87.4
+EST-20228141,Bases de Datos,2024,10,3.7,77.9
+EST-20253001,Ingeniería de Software,2024,2,2.0,59.0
+EST-20218110,Cálculo II,2024,9,1.3,52.7
+EST-20224820,Redes de Computadores,2024,3,4.0,66.0
+EST-20227159,Ingeniería de Software,2024,5,2.7,87.7
+EST-20245222,Álgebra Lineal,2024,10,2.3,63.5
+EST-20240535,Bases de Datos,2024,8,3.2,77.0
+EST-20236557,Álgebra Lineal,2025,2,3.3,86.4
+EST-20248952,Bases de Datos,2024,6,2.2,55.4
+EST-20215258,Cálculo II,2024,12,3.7,84.3
+EST-20234276,Redes de Computadores,2024,5,0.7,54.6
+EST-20236854,Estructuras de Datos,2024,10,3.2,98.3
+EST-20250774,Álgebra Lineal,2025,9,3.0,74.4
+EST-20249099,Álgebra Lineal,2024,12,2.1,57.5
+EST-20232403,Estadística e Inferencia,2024,5,2.8,67.1
+EST-20215056,Bases de Datos,2025,2,3.0,70.7
+EST-20248660,Programación Interactiva,2024,5,2.2,87.9
+EST-20211016,Redes de Computadores,2024,12,4.3,87.2
+EST-20227159,Bases de Datos,2025,4,2.9,80.6
+EST-20250757,Estadística e Inferencia,2024,11,1.7,55.3
+EST-20211899,Cálculo I,2024,7,2.4,57.6
+EST-20233419,Bases de Datos,2025,6,2.3,54.7
+EST-20229769,Estructuras de Datos,2023,2,3.9,78.9
+EST-20253001,Redes de Computadores,2023,12,3.9,93.9
+EST-20224820,Estadística e Inferencia,2024,11,3.6,71.7
+EST-20215056,Cálculo I,2025,11,1.8,58.0
+EST-20216910,Física General,2023,5,3.2,77.9
+EST-20243270,Estadística e Inferencia,2023,7,3.0,90.6
+EST-20255151,Física General,2023,11,3.5,87.1
+EST-20215056,Redes de Computadores,2023,7,3.7,94.1
+EST-20211899,Álgebra Lineal,2023,5,2.5,63.9
+EST-20218392,Estadística e Inferencia,2024,12,2.3,59.7
+EST-20233599,Cálculo II,2024,9,4.2,94.0
+EST-20238693,Física General,2023,4,2.4,82.9
+EST-20213890,Estructuras de Datos,2024,11,2.1,65.5
+EST-20222666,Cálculo II,2023,3,3.5,87.1
+EST-20212612,Ingeniería de Software,2024,4,2.9,90.8
+EST-20247194,Ingeniería de Software,2024,5,3.3,80.7
+EST-20228942,Cálculo I,2025,6,3.3,84.4
+EST-20228942,Álgebra Lineal,2023,3,1.9,68.8
+EST-20229769,Redes de Computadores,2024,2,2.2,76.9
+EST-20210189,Estadística e Inferencia,2023,4,1.5,76.2
+EST-20259216,Programación Interactiva,2025,5,3.0,92.4
+EST-20228431,Estructuras de Datos,2025,4,3.7,92.0
+EST-20213561,Física General,2024,11,3.8,91.6
+EST-20213943,Redes de Computadores,2023,12,2.1,50.6
+EST-20253001,Cálculo II,2025,3,3.0,87.5
+EST-20228141,Ingeniería de Software,2023,8,3.5,87.9
+EST-20254732,Estructuras de Datos,2023,10,3.6,83.9
+EST-20241551,Programación Interactiva,2024,4,2.8,87.8
+EST-20221016,Estadística e Inferencia,2023,2,3.8,92.1
+EST-20215311,Cálculo I,2025,2,3.3,73.5
+EST-20253021,Programación Interactiva,2025,1,2.7,75.1
+EST-20223067,Estructuras de Datos,2023,4,2.9,56.2
+EST-20216265,Programación Interactiva,2024,10,2.5,69.3
+EST-20250774,Estructuras de Datos,2025,9,2.8,82.2
+EST-20229115,Estructuras de Datos,2025,11,3.9,89.0
+EST-20213556,Bases de Datos,2024,7,3.7,60.9
+EST-20237480,Física General,2025,12,2.3,56.9
+EST-20249099,Ingeniería de Software,2025,10,3.7,83.2
+EST-20253021,Bases de Datos,2025,7,1.7,50.1
+EST-20249976,Estadística e Inferencia,2023,7,1.6,58.9
+EST-20250774,Bases de Datos,2024,8,2.2,51.5
+EST-20240535,Álgebra Lineal,2025,1,2.5,58.3
+EST-20223417,Álgebra Lineal,2023,10,2.1,59.1
+EST-20215056,Ingeniería de Software,2025,10,3.2,69.4
+EST-20247819,Programación Interactiva,2023,8,2.4,70.1
+EST-20251434,Física General,2023,4,3.2,93.7
+EST-20227159,Ingeniería de Software,2024,4,3.7,75.5
+EST-20245920,Estructuras de Datos,2023,4,4.1,86.2
+EST-20223417,Cálculo II,2025,6,1.8,55.2
+EST-20215258,Física General,2025,7,3.5,61.3
+EST-20237480,Física General,2025,6,3.2,85.1
+EST-20232662,Estructuras de Datos,2024,1,2.2,52.6
+EST-20245773,Estructuras de Datos,2023,12,2.9,74.3
+EST-20234300,Cálculo I,2024,8,3.5,80.0
+EST-20252530,Ingeniería de Software,2024,10,3.4,80.1
+EST-20257716,Estructuras de Datos,2024,11,2.2,51.1
+EST-20215311,Álgebra Lineal,2023,7,2.0,66.1
+EST-20215258,Estadística e Inferencia,2024,6,2.3,81.8
+EST-20255453,Cálculo II,2024,6,3.0,57.4
+EST-20220627,Ingeniería de Software,2025,5,3.1,84.8
+EST-20251606,Redes de Computadores,2025,6,3.5,87.3
+EST-20235658,Álgebra Lineal,2024,12,4.2,99.1
+EST-20250774,Programación Interactiva,2024,9,3.4,60.5
+EST-20233897,Estructuras de Datos,2025,10,3.7,91.3
+EST-20251090,Redes de Computadores,2023,9,2.8,76.0
+EST-20211585,Estructuras de Datos,2025,10,2.4,68.7
+EST-20243270,Física General,2025,8,2.2,56.1
+EST-20224541,Álgebra Lineal,2024,10,2.9,86.8
+EST-20221394,Física General,2024,9,2.5,61.8
+EST-20227568,Cálculo I,2023,10,2.7,68.6
+EST-20221653,Física General,2024,8,3.1,53.1
+EST-20247194,Cálculo I,2023,8,3.6,90.1
+EST-20251523,Cálculo I,2025,1,2.4,88.3
+EST-20233419,Redes de Computadores,2023,10,5.0,86.7
+EST-20218392,Estructuras de Datos,2024,11,3.2,65.0
+EST-20258702,Programación Interactiva,2025,5,3.6,58.7
+EST-20231243,Física General,2025,4,2.6,81.9
+EST-20258984,Álgebra Lineal,2023,2,2.9,74.8
+EST-20253573,Cálculo I,2023,8,2.8,58.9
+EST-20245773,Estructuras de Datos,2023,3,3.7,84.3
+EST-20234300,Cálculo II,2024,4,4.2,99.6
+EST-20212612,Ingeniería de Software,2023,12,2.2,87.4
+EST-20229457,Redes de Computadores,2024,7,2.5,87.0
+EST-20220965,Programación Interactiva,2025,10,4.8,97.5
+EST-20216374,Bases de Datos,2023,9,3.4,60.1
+EST-20245920,Redes de Computadores,2025,2,3.1,78.3
+EST-20245920,Cálculo II,2025,3,4.8,99.0
+EST-20234300,Ingeniería de Software,2023,4,1.7,58.3
+EST-20221016,Cálculo II,2025,10,2.9,85.0
+EST-20255758,Física General,2024,1,2.5,79.3
+EST-20210769,Cálculo I,2025,7,2.7,79.3
+EST-20227159,Programación Interactiva,2024,2,3.8,84.9
+EST-20212027,Estadística e Inferencia,2024,5,3.3,96.5
+EST-20247194,Cálculo I,2024,1,4.9,89.1
+EST-20258555,Estadística e Inferencia,2025,3,2.4,52.8
+EST-20211585,Ingeniería de Software,2025,12,4.4,92.6
+EST-20223986,Estructuras de Datos,2024,2,2.7,61.3
+EST-20221284,Bases de Datos,2025,1,3.5,68.8
+EST-20258190,Álgebra Lineal,2023,7,2.4,73.1
+EST-20216265,Cálculo I,2023,5,3.8,74.0
+EST-20222666,Programación Interactiva,2023,1,3.0,71.8
+EST-20240535,Cálculo II,2024,6,4.6,96.9
+EST-20218571,Programación Interactiva,2023,5,2.5,85.3
+EST-20218433,Ingeniería de Software,2025,3,3.4,81.6
+EST-20250774,Estadística e Inferencia,2023,12,2.2,52.5
+EST-20254974,Cálculo II,2024,7,3.4,95.2
+EST-20233483,Álgebra Lineal,2023,11,4.0,95.5
+EST-20251523,Álgebra Lineal,2025,10,4.5,89.0
+EST-20251090,Cálculo I,2025,9,1.6,50.4
+EST-20232662,Ingeniería de Software,2024,9,2.7,52.9
+EST-20229115,Estructuras de Datos,2025,9,1.8,61.3
+EST-20249504,Ingeniería de Software,2023,2,3.5,56.6
+EST-20228141,Estadística e Inferencia,2025,3,3.3,69.9
+EST-20255151,Programación Interactiva,2023,7,4.9,96.1
+EST-20245222,Álgebra Lineal,2025,5,3.3,73.6
+EST-20229457,Programación Interactiva,2023,2,2.3,50.7
+EST-20249188,Programación Interactiva,2024,3,3.0,64.1
+EST-20231243,Programación Interactiva,2025,10,2.0,52.2
+EST-20245920,Álgebra Lineal,2023,6,1.1,51.8
+EST-20231271,Redes de Computadores,2023,7,2.8,63.8
+EST-20223067,Física General,2023,9,2.1,63.8
+EST-20233939,Estadística e Inferencia,2024,1,2.9,89.4
+EST-20216396,Redes de Computadores,2024,11,4.3,98.7
+EST-20252530,Estadística e Inferencia,2023,7,2.6,68.6
+EST-20255453,Cálculo II,2024,8,3.5,71.4
+EST-20231518,Ingeniería de Software,2023,12,3.2,92.2
+EST-20242482,Ingeniería de Software,2025,3,2.3,63.4
+EST-20245920,Bases de Datos,2023,4,3.0,57.8
+EST-20224039,Ingeniería de Software,2023,10,3.9,92.7
+EST-20225795,Álgebra Lineal,2023,6,1.2,52.3
+EST-20211267,Estructuras de Datos,2024,10,3.4,81.0
+EST-20248044,Cálculo I,2025,7,4.0,78.1
+EST-20234538,Bases de Datos,2024,4,2.4,67.3
+EST-20258033,Cálculo I,2023,8,3.0,65.8
+EST-20253001,Estadística e Inferencia,2025,5,3.0,88.6
+EST-20219268,Cálculo I,2025,1,2.1,54.3
+EST-20223067,Cálculo I,2023,4,3.1,61.8
+EST-20242482,Bases de Datos,2025,3,3.6,86.6
+EST-20212433,Cálculo II,2025,9,3.9,77.4
+EST-20219692,Programación Interactiva,2023,8,2.5,56.4
+EST-20238693,Ingeniería de Software,2025,1,5.0,94.1
+EST-20249099,Ingeniería de Software,2025,11,1.8,69.7
+EST-20243763,Álgebra Lineal,2024,6,3.5,91.4
+EST-20251523,Bases de Datos,2023,9,2.9,89.4
+EST-20234300,Álgebra Lineal,2023,7,2.6,81.2
+EST-20212747,Estructuras de Datos,2025,4,2.4,74.7
+EST-20219692,Estructuras de Datos,2025,1,4.1,99.0
+EST-20218433,Álgebra Lineal,2024,12,2.4,57.2
+EST-20218571,Bases de Datos,2024,2,3.7,86.3
+EST-20251523,Álgebra Lineal,2024,12,1.7,59.6
+EST-20233247,Ingeniería de Software,2024,5,2.5,66.9
+EST-20251606,Redes de Computadores,2024,12,2.0,65.4
+EST-20212568,Física General,2023,11,4.5,97.4
+EST-20211899,Cálculo I,2025,5,3.4,98.4
+EST-20212027,Física General,2024,8,2.2,59.2
+EST-20216396,Bases de Datos,2025,6,2.4,51.1
+EST-20257191,Física General,2023,8,3.1,86.0
+EST-20219692,Estructuras de Datos,2023,2,3.3,70.9
+EST-20212568,Estadística e Inferencia,2023,3,3.1,54.4
+EST-20211267,Cálculo I,2024,6,3.5,84.2
+EST-20235446,Programación Interactiva,2025,12,3.6,77.3
+EST-20228141,Bases de Datos,2023,10,2.7,99.0
+EST-20248044,Cálculo I,2025,3,2.2,61.4
+EST-20225795,Física General,2024,6,2.9,70.2
+EST-20219692,Estructuras de Datos,2025,6,2.5,77.1
+EST-20254732,Cálculo II,2023,2,3.7,89.6
+EST-20212433,Redes de Computadores,2025,7,3.7,77.4
+EST-20237480,Programación Interactiva,2025,12,2.1,80.6
+EST-20250397,Redes de Computadores,2023,2,1.7,61.3
+EST-20210860,Cálculo I,2023,6,3.8,92.3
+EST-20215056,Estructuras de Datos,2025,1,3.1,71.4
+EST-20234276,Estructuras de Datos,2025,3,2.7,57.0
+EST-20231518,Física General,2023,2,3.4,83.2
+EST-20229115,Ingeniería de Software,2025,7,2.7,60.8
+EST-20211899,Física General,2025,4,2.7,54.9
+EST-20212027,Ingeniería de Software,2025,8,3.5,93.1
+EST-20226023,Ingeniería de Software,2025,6,2.6,73.0
+EST-20223417,Programación Interactiva,2025,12,3.4,87.5
+EST-20221653,Física General,2024,10,2.7,64.5
+EST-20247065,Cálculo II,2024,4,3.2,89.3
+EST-20220627,Álgebra Lineal,2024,5,2.0,55.6
+EST-20218792,Álgebra Lineal,2025,9,3.0,67.8
+EST-20212747,Física General,2025,7,4.1,98.9
+EST-20232361,Física General,2023,10,3.5,89.7
+EST-20226023,Redes de Computadores,2025,9,1.9,74.9
+EST-20249976,Programación Interactiva,2025,7,2.7,67.0
+EST-20253021,Física General,2024,12,3.2,93.6
+EST-20257716,Redes de Computadores,2024,1,3.7,77.2
+EST-20241551,Ingeniería de Software,2024,12,3.3,87.9
+EST-20235851,Estructuras de Datos,2023,8,2.9,87.7
+EST-20231271,Estructuras de Datos,2023,4,2.0,50.9
+EST-20247194,Ingeniería de Software,2023,3,3.0,56.3
+EST-20249099,Bases de Datos,2023,7,3.7,83.0
+EST-20231271,Redes de Computadores,2024,12,2.5,58.1
+EST-20218392,Redes de Computadores,2024,3,1.7,62.8
+EST-20232002,Ingeniería de Software,2023,8,4.9,97.3
+EST-20243270,Cálculo II,2025,6,2.7,78.0
+EST-20245920,Estadística e Inferencia,2023,5,4.1,87.5
+EST-20232662,Cálculo I,2025,4,2.9,77.9
+EST-20236557,Ingeniería de Software,2025,8,3.6,77.6
+EST-20245222,Física General,2023,8,3.0,54.7
+EST-20229769,Física General,2024,12,3.1,67.2
+EST-20235446,Programación Interactiva,2023,1,3.0,64.1
+EST-20212027,Ingeniería de Software,2024,9,2.7,69.5
+EST-20250774,Programación Interactiva,2024,5,3.3,89.9
+EST-20221394,Ingeniería de Software,2023,4,2.8,68.6
+EST-20248044,Redes de Computadores,2024,6,2.7,72.6
+EST-20213556,Cálculo I,2023,6,4.3,69.9
+EST-20226023,Redes de Computadores,2023,2,1.6,54.7
+EST-20248952,Estadística e Inferencia,2024,8,3.5,72.1
+EST-20251090,Estructuras de Datos,2024,7,2.7,59.8
+EST-20216396,Álgebra Lineal,2024,1,2.5,59.3
+EST-20250774,Ingeniería de Software,2024,5,3.1,54.7
+EST-20232002,Estadística e Inferencia,2025,12,2.9,67.8
+EST-20210189,Estructuras de Datos,2023,6,3.1,87.9
+EST-20215311,Bases de Datos,2024,4,2.7,63.8
+EST-20248952,Cálculo I,2024,2,2.5,65.6
+EST-20233939,Programación Interactiva,2024,4,3.6,82.1
+EST-20234276,Programación Interactiva,2025,1,2.9,59.8
+EST-20236854,Redes de Computadores,2025,7,3.3,94.8
+EST-20234300,Física General,2024,2,3.8,76.0
+EST-20232361,Estructuras de Datos,2025,2,2.7,72.4
+EST-20249188,Bases de Datos,2025,9,3.4,77.9
+EST-20212568,Estadística e Inferencia,2025,5,2.7,58.3
+EST-20231518,Cálculo I,2025,2,3.4,80.7
+EST-20228141,Estructuras de Datos,2025,11,2.7,68.2
+EST-20243763,Bases de Datos,2023,9,3.5,94.9
+EST-20231962,Álgebra Lineal,2023,9,2.2,58.4
+EST-20228431,Ingeniería de Software,2024,1,4.0,75.4
+EST-20215056,Programación Interactiva,2023,11,2.7,79.9
+EST-20233483,Estadística e Inferencia,2024,3,1.6,51.7
+EST-20234253,Programación Interactiva,2023,4,2.3,68.2
+EST-20213561,Estadística e Inferencia,2024,7,3.5,86.6
+EST-20251523,Redes de Computadores,2025,10,2.7,91.0
+EST-20223067,Física General,2025,4,1.8,65.7
+EST-20219692,Estadística e Inferencia,2023,2,3.4,89.9
+EST-20250774,Programación Interactiva,2024,7,3.2,98.4
+EST-20231518,Redes de Computadores,2025,6,3.0,92.8
+EST-20251434,Estadística e Inferencia,2023,3,1.5,55.9
+EST-20240818,Álgebra Lineal,2025,6,3.0,87.0
+EST-20258555,Física General,2024,11,3.1,66.0
+EST-20251523,Estadística e Inferencia,2024,6,4.6,99.4
+EST-20224541,Redes de Computadores,2025,12,4.1,74.3
+EST-20251606,Estructuras de Datos,2023,5,3.4,56.1
+EST-20222666,Cálculo II,2024,4,3.9,86.3
+EST-20231777,Bases de Datos,2025,10,3.3,66.2
+EST-20233419,Cálculo II,2023,12,4.1,99.9
+EST-20224039,Cálculo II,2024,1,4.3,99.0
+EST-20237266,Cálculo I,2025,10,4.5,82.8
+EST-20236557,Álgebra Lineal,2023,6,2.5,56.5
+EST-20232403,Estructuras de Datos,2025,2,4.1,84.3
+EST-20243763,Ingeniería de Software,2024,3,1.6,54.7
+EST-20231962,Estadística e Inferencia,2024,8,1.7,51.5
+EST-20247065,Bases de Datos,2024,10,3.8,91.1
+EST-20255151,Física General,2023,6,2.5,60.5
+EST-20226850,Estructuras de Datos,2025,3,2.4,69.0
+EST-20232361,Programación Interactiva,2025,7,5.0,98.7
+EST-20255453,Ingeniería de Software,2024,4,2.8,66.8
+EST-20228942,Cálculo I,2025,9,2.3,64.8
+EST-20224039,Cálculo I,2024,5,3.9,95.9
+EST-20221284,Estructuras de Datos,2024,3,2.2,55.5
+EST-20212747,Redes de Computadores,2024,2,3.6,88.0
+EST-20234253,Cálculo II,2024,11,3.0,99.4
+EST-20216910,Programación Interactiva,2024,2,4.6,95.1
+EST-20222666,Cálculo I,2025,3,4.1,82.6
+EST-20221653,Bases de Datos,2024,2,3.5,65.7
+EST-20234300,Cálculo I,2023,4,2.7,62.7
+EST-20255151,Física General,2023,2,4.0,91.0
+EST-20216873,Estadística e Inferencia,2024,10,3.2,94.0
+EST-20253323,Cálculo I,2025,9,3.6,76.3
+EST-20223773,Física General,2024,2,2.6,62.2
+EST-20221394,Estructuras de Datos,2024,9,1.9,55.6
+EST-20255758,Estructuras de Datos,2024,6,2.7,54.4
+EST-20249188,Ingeniería de Software,2024,1,4.0,86.0
+EST-20223986,Cálculo I,2024,4,2.9,71.0
+EST-20222185,Bases de Datos,2024,1,4.1,95.3
+EST-20231271,Cálculo I,2025,6,2.9,87.0
+EST-20249188,Bases de Datos,2025,4,3.1,59.6
+EST-20251606,Álgebra Lineal,2024,3,2.7,80.7
+EST-20234538,Ingeniería de Software,2023,3,2.4,71.8
+EST-20232361,Álgebra Lineal,2023,9,3.2,78.9
+EST-20234538,Cálculo I,2023,6,4.1,86.9
+EST-20245920,Ingeniería de Software,2024,9,4.3,90.3
+EST-20224820,Álgebra Lineal,2024,5,3.7,92.2
+EST-20213943,Cálculo II,2024,2,3.0,62.7
+EST-20252530,Cálculo I,2024,8,1.0,51.6
+EST-20232002,Álgebra Lineal,2023,5,3.0,87.0
+EST-20225795,Cálculo II,2024,2,1.8,55.3
+EST-20218110,Cálculo II,2023,4,3.4,65.7
+EST-20231243,Estructuras de Datos,2024,9,2.4,50.2
+EST-20248952,Cálculo I,2023,4,3.5,84.1
+EST-20250994,Cálculo II,2025,12,2.5,58.4
+EST-20223067,Estructuras de Datos,2023,12,4.3,82.8
+EST-20227412,Álgebra Lineal,2025,12,3.9,99.6
+EST-20245920,Física General,2024,4,1.4,53.6
+EST-20218792,Cálculo I,2025,2,2.8,53.9
+EST-20213943,Ingeniería de Software,2024,12,2.8,67.0
+EST-20218433,Bases de Datos,2025,6,4.3,93.3
+EST-20250342,Bases de Datos,2025,11,2.4,60.8
+EST-20250397,Álgebra Lineal,2024,2,2.2,68.0
+EST-20258033,Redes de Computadores,2024,12,2.4,53.4
+EST-20228141,Redes de Computadores,2024,7,3.5,88.2
+EST-20227568,Álgebra Lineal,2024,3,2.9,70.4
+EST-20232403,Cálculo II,2023,3,4.5,88.0
+EST-20218433,Cálculo I,2024,5,3.1,95.2
+EST-20221016,Bases de Datos,2024,3,2.6,61.6
+EST-20211685,Bases de Datos,2024,2,3.1,90.4
+EST-20258702,Cálculo II,2025,10,0.6,53.0
+EST-20225795,Bases de Datos,2024,9,3.8,94.9
+EST-20223067,Ingeniería de Software,2025,2,3.3,82.5
+EST-20227159,Cálculo I,2023,11,4.1,93.7
+EST-20258033,Estadística e Inferencia,2024,2,1.9,50.0
+EST-20248158,Bases de Datos,2024,8,1.4,58.5
+EST-20251523,Álgebra Lineal,2024,9,2.3,69.5
+EST-20226023,Ingeniería de Software,2025,7,3.5,69.0
+EST-20247065,Bases de Datos,2023,3,2.0,61.3
+EST-20212433,Ingeniería de Software,2025,9,3.7,69.1
+EST-20212695,Estructuras de Datos,2024,3,2.9,56.4
+EST-20223067,Estadística e Inferencia,2024,5,2.6,70.6
+EST-20247194,Programación Interactiva,2024,9,3.2,90.1
+EST-20224039,Álgebra Lineal,2024,12,3.6,74.0
+EST-20231243,Álgebra Lineal,2024,3,1.9,50.9
+EST-20231271,Cálculo I,2024,7,1.9,71.1
+EST-20216910,Ingeniería de Software,2023,12,2.4,51.4
+EST-20211585,Cálculo II,2024,1,4.2,98.3
+EST-20228431,Álgebra Lineal,2023,4,2.9,56.4
+EST-20212027,Ingeniería de Software,2024,4,3.6,85.4
+EST-20224502,Ingeniería de Software,2024,7,3.6,98.6
+EST-20255151,Física General,2024,8,4.4,91.3
+EST-20232361,Física General,2024,1,4.2,85.0
+EST-20253021,Programación Interactiva,2023,5,3.8,92.0
+EST-20241551,Estructuras de Datos,2024,7,4.0,99.1
+EST-20227412,Programación Interactiva,2024,12,2.4,81.1
+EST-20211016,Bases de Datos,2024,4,2.8,78.0
+EST-20218392,Cálculo II,2025,4,3.7,81.4
+EST-20218433,Bases de Datos,2023,4,2.7,76.6
+EST-20257191,Redes de Computadores,2024,12,2.4,81.8
+EST-20250994,Bases de Datos,2024,6,5.0,72.5
+EST-20210189,Cálculo I,2024,7,1.6,60.9
+EST-20222666,Bases de Datos,2023,2,3.6,56.0
+EST-20221284,Programación Interactiva,2023,5,2.0,53.4
+EST-20233599,Álgebra Lineal,2025,4,2.5,63.2
+EST-20211899,Álgebra Lineal,2024,3,1.7,52.3
+EST-20258033,Física General,2024,7,3.6,78.4
+EST-20221653,Cálculo II,2024,11,1.7,64.2
+EST-20232403,Cálculo II,2024,12,2.5,91.2
+EST-20254131,Cálculo I,2023,6,3.1,53.7
+EST-20233247,Programación Interactiva,2024,7,2.0,61.3
+EST-20235658,Física General,2024,5,3.9,86.5
+EST-20229457,Redes de Computadores,2025,6,2.5,79.9
+EST-20234300,Cálculo II,2023,5,2.6,53.2
+EST-20236531,Álgebra Lineal,2024,7,4.8,93.9
+EST-20228942,Bases de Datos,2024,2,3.4,93.9
+EST-20258984,Bases de Datos,2024,11,1.5,66.5
+EST-20232002,Física General,2024,5,3.7,67.0
+EST-20250774,Programación Interactiva,2024,6,4.5,99.5
+EST-20242482,Programación Interactiva,2025,6,3.0,81.3
+EST-20250342,Estructuras de Datos,2025,5,2.9,76.6
+EST-20254974,Estadística e Inferencia,2024,10,3.0,91.9
+EST-20216265,Cálculo II,2025,7,3.4,64.3
+EST-20249976,Programación Interactiva,2024,10,2.5,71.5
+EST-20237266,Álgebra Lineal,2024,8,1.7,63.4
+EST-20212695,Física General,2023,7,3.7,89.5
+EST-20248158,Redes de Computadores,2025,5,2.6,78.7
+EST-20216396,Estructuras de Datos,2023,1,2.7,82.9
+EST-20258555,Ingeniería de Software,2023,5,2.2,62.6
+EST-20234253,Cálculo I,2023,10,2.5,61.0
+EST-20255151,Redes de Computadores,2024,2,2.1,74.4
+EST-20233247,Ingeniería de Software,2023,5,4.3,86.9
+EST-20221534,Bases de Datos,2023,5,3.5,76.3
+EST-20248660,Cálculo I,2023,2,1.8,51.6
+EST-20225795,Cálculo II,2023,5,3.2,93.4
+EST-20212612,Álgebra Lineal,2024,4,2.1,53.2
+EST-20254732,Cálculo I,2024,1,4.5,97.8
+EST-20248952,Estadística e Inferencia,2024,3,2.5,51.3
+EST-20245773,Ingeniería de Software,2024,1,4.0,84.7
+EST-20211267,Cálculo II,2024,12,1.9,54.1
+EST-20231243,Estadística e Inferencia,2023,11,2.1,95.5
+EST-20249976,Bases de Datos,2024,5,3.7,73.2
+EST-20215675,Estadística e Inferencia,2025,4,2.2,56.9
+EST-20251606,Estructuras de Datos,2024,7,3.1,67.0
