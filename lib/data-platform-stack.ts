@@ -19,7 +19,7 @@ export class DataPlatformStack extends cdk.Stack {
       autoDeleteObjects: true,
     });
 
-    // Processed data bucket - stores transformed Parquet files
+    // Processed data bucket - stores partitioned Parquet files
     const processedBucket = new s3.Bucket(this, "ProcessedDataBucket", {
       blockPublicAccess: s3.BlockPublicAccess.BLOCK_ALL,
       encryption: s3.BucketEncryption.S3_MANAGED,
@@ -48,7 +48,7 @@ export class DataPlatformStack extends cdk.Stack {
       },
     );
 
-    // IAM role assumed by AWS Glue ETL Job
+    // IAM role assumed by the Glue ETL Job
     const glueJobRole = new iam.Role(this, "GlueJobRole", {
       assumedBy: new iam.ServicePrincipal("glue.amazonaws.com"),
       managedPolicies: [
@@ -76,13 +76,21 @@ export class DataPlatformStack extends cdk.Stack {
 
       glueVersion: "4.0",
 
+      // Boss Fight scalability configuration.
       workerType: "G.1X",
       numberOfWorkers: 2,
 
       defaultArguments: {
         "--job-language": "python",
+
         "--SOURCE_PATH": `s3://${rawBucket.bucketName}/academic_data.csv`,
+
         "--TARGET_PATH": `s3://${processedBucket.bucketName}/`,
+
+        // Enable Glue Job Bookmarks.
+        "--job-bookmark-option": "job-bookmark-enable",
+
+        // Glue monitoring.
         "--enable-metrics": "",
         "--enable-continuous-cloudwatch-log": "true",
       },
@@ -92,12 +100,14 @@ export class DataPlatformStack extends cdk.Stack {
       },
     });
 
-    // Ensure the Glue script is deployed before creating the Glue Job
+    // Ensure the Glue script is uploaded before
+    // creating the Glue Job.
     glueJob.node.addDependency(glueScriptDeployment);
 
     // Glue Data Catalog database
     const database = new glue.CfnDatabase(this, "AcademicDataDatabase", {
       catalogId: this.account,
+
       databaseInput: {
         name: "academic_data_catalog",
         description: "Data Catalog for academic educational data",
@@ -107,6 +117,7 @@ export class DataPlatformStack extends cdk.Stack {
     // IAM role assumed by the Glue Crawler
     const crawlerRole = new iam.Role(this, "GlueCrawlerRole", {
       assumedBy: new iam.ServicePrincipal("glue.amazonaws.com"),
+
       managedPolicies: [
         iam.ManagedPolicy.fromAwsManagedPolicyName(
           "service-role/AWSGlueServiceRole",
@@ -144,6 +155,7 @@ export class DataPlatformStack extends cdk.Stack {
 
       configuration: JSON.stringify({
         Version: 1.0,
+
         CrawlerOutput: {
           Partitions: {
             AddOrUpdateBehavior: "InheritFromTable",
@@ -170,6 +182,7 @@ export class DataPlatformStack extends cdk.Stack {
           },
 
           enforceWorkGroupConfiguration: true,
+
           publishCloudWatchMetricsEnabled: true,
         },
 
@@ -177,17 +190,21 @@ export class DataPlatformStack extends cdk.Stack {
       },
     );
 
-    // Allow the account to read processed data for Athena queries
+    // Allow the account to read processed data for Athena
+    // while keeping the bucket private.
     processedBucket.addToResourcePolicy(
       new iam.PolicyStatement({
         effect: iam.Effect.ALLOW,
+
         principals: [new iam.AccountRootPrincipal()],
+
         actions: [
           "s3:GetObject",
           "s3:GetObjectVersion",
           "s3:ListBucket",
           "s3:GetBucketLocation",
         ],
+
         resources: [
           processedBucket.bucketArn,
           processedBucket.arnForObjects("*"),
@@ -199,7 +216,9 @@ export class DataPlatformStack extends cdk.Stack {
     athenaResultsBucket.addToResourcePolicy(
       new iam.PolicyStatement({
         effect: iam.Effect.ALLOW,
+
         principals: [new iam.AccountRootPrincipal()],
+
         actions: [
           "s3:GetObject",
           "s3:GetObjectVersion",
@@ -207,6 +226,7 @@ export class DataPlatformStack extends cdk.Stack {
           "s3:ListBucket",
           "s3:GetBucketLocation",
         ],
+
         resources: [
           athenaResultsBucket.bucketArn,
           athenaResultsBucket.arnForObjects("*"),
@@ -229,6 +249,10 @@ export class DataPlatformStack extends cdk.Stack {
 
     new cdk.CfnOutput(this, "GlueCrawlerName", {
       value: crawler.ref,
+    });
+
+    new cdk.CfnOutput(this, "GlueJobName", {
+      value: glueJob.ref,
     });
 
     new cdk.CfnOutput(this, "AthenaResultsBucketName", {
